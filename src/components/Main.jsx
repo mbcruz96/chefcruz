@@ -5,9 +5,7 @@ import { getRecipeFromMistral } from "../ai"
 
 export default function Main(){
     // component state variable for ingredients
-    const [ingredients, setIngredients] = useState(
-        ["chicken", "all the main spices", "corn", "heavy cream", "pasta"]
-    )
+    const [ingredients, setIngredients] = useState([])
 
     // component state flag indicating whether or not to show recipe
     const [recipe, setRecipe] = useState('')
