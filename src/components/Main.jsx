@@ -24,7 +24,7 @@ export default function Main(){
         setIngredients(prevIngredients => [...prevIngredients, newIngredient])
     }
 
-    // function that interacts with AI and gets a recipe
+    // function that interacts with AI and gets a recipe from Claude
     async function getRecipe(){
         const recipeMarkdown = await getRecipeFromMistral(ingredients)
         setRecipe(recipeMarkdown)
