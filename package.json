@@ -2,7 +2,7 @@
   "name": "chef-cruz",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://mbcruz96.github.io",
+  "homepage": "https://mbcruz96.github.io/chefcruz/",
   "type": "module",
   "scripts": {
     "dev": "vite",
